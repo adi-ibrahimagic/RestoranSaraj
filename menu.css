@@ -102,8 +102,7 @@ img {
   height: 100%;
   color: white;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
 }
 .restoran {
   width: 400px;
@@ -113,4 +112,10 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.cijene {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  align-items: center;
 }
